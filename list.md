@@ -7,3 +7,7 @@ Ed
 Lake
 Linsy
 Kevin
+
+## Instructor
+
+Brian
