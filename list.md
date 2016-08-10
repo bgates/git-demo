@@ -8,6 +8,6 @@ Lake
 Linsy
 Kevin
 
-## Instructor
+## JS Instructor
 
 Brian
