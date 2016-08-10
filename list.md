@@ -2,7 +2,7 @@
 
 Bama
 Joe
-(Brandon)
+Brandon
 Ed
 Lake
 Linsy
