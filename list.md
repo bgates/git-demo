@@ -10,4 +10,4 @@ Kevin
 
 ## JS Instructor
 
-Brian
+Brian.
