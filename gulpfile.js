@@ -14,10 +14,13 @@ var ghPages = require('gulp-gh-pages');
 gulp.task('test', function(){
   return gulp.src('test/*.js')
   .pipe(tape({
-    reporter: tapColorize()
+    reporter: tapColorize(),
+    bail: true
   }));
 });
-
+gulp.task('next', ['test'], function () {
+  console.log('next ran...')
+});
 // use: gulp commit --m='the commit message'
 gulp.task('commit', function () {
   var msg = gutil.env.m || 'generic commit message';

@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tape test/*.js || true",
+    "ghp": "git push origin `git subtree split --prefix dist master`:gh-pages --force"
   },
   "author": "Brian Gates",
   "license": "ISC",
